@@ -1,0 +1,16 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  # قمت بحذف قسم errors لتجنب أي تعارض مع إصدار الـ SDK لديك
+  exclude:
+    - build/**
+
+linter:
+  rules:
+    avoid_print: false
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_const_constructors_in_immutables: true
+    # هذه القواعد ستساعدك في تنظيف الكود تلقائياً
+    unused_import: true
+    unused_local_variable: true

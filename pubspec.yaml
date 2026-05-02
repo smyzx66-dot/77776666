@@ -1,0 +1,45 @@
+name: hamid_academy
+description: A premium educational app for Hamid Academy.
+publish_to: 'none'
+version: 1.0.0+3
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- الشبكة والاتصال ---
+  http: ^1.2.1
+  dio: ^5.4.1
+
+  # --- الميديا والعرض ---
+  cached_network_image: ^3.3.1
+  video_player: ^2.8.2
+  webview_flutter: ^4.8.0
+  google_fonts: ^6.2.1
+
+  # --- الأدوات النظامية ---
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.1
+  flutter_local_notifications: ^17.1.1
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+  wakelock_plus: ^1.2.8
+
+  # --- الفايربيس والإشعارات ---
+  firebase_core: ^2.32.0
+  firebase_messaging: ^14.9.4
+
+  # --- الجماليات ---
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
