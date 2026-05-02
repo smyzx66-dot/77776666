@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418007266067",
+    "project_id": "hmed-academy",
+    "storage_bucket": "hmed-academy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418007266067:android:67ced14140c5a90effa0e6",
+        "android_client_info": {
+          "package_name": "com.hmed.edson"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoYd7H4kFbHe8QmXr1dBhgn7fKeXk3OcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
